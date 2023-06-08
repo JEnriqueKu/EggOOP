@@ -1,3 +1,5 @@
+package Entidad;
+
 import Entidad.Persona;
 
 import java.util.Date;
