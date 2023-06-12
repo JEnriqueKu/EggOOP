@@ -58,14 +58,8 @@ public class Libro {
     public void setNumPaginas(int numPaginas) {
         this.numPaginas = numPaginas;
     }
-    /**
-     * //funcion para guardar datos del libro
-     * @param ISBN
-     * @param titulo
-     * @param autor
-     * @param numPaginas 
-     */
-    
+
+
     public void cargarLibro(){
         Scanner leer = new Scanner(System.in);
         System.out.print("ISBN: ");
