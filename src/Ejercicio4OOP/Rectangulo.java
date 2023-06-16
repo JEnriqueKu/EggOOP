@@ -13,6 +13,7 @@ setters y constructores correspondientes.
 Superficie = base * altura / Perímetro = (base + altura) * 2.
  */
 public class Rectangulo {
+
     private int base;
     private int altura;
     Scanner scanner = new Scanner(System.in);
