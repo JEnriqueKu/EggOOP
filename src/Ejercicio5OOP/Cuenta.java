@@ -83,9 +83,9 @@ public class Cuenta {
 //la restará al saldo actual. Si la cuenta no tiene la cantidad de dinero a retirar, se 
 //pondrá el saldo actual en 0.
     public void retirar(double retiro) {
-        if (retiro >= this.saldoActual) {
+        if (retiro > this.saldoActual) {
             this.saldoActual = 0;
-            System.out.println("No puedes retirar el retiro excede tu saldo actual");
+            System.out.println("No puedes retirar, el retiro excede tu saldo actual");
         } else {
             this.saldoActual -= retiro;
         }
